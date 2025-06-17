@@ -11,7 +11,8 @@ function addIconsLink(href) {
   document.head.appendChild(iconLink)
 }
 
-addIconsLink('https://fonts.googleapis.com/icon?family=Material+Icons')
+//the main app using tata js should self-host this font
+//addIconsLink('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 function mapPostion(pos = 'tr') {
   switch (pos) {
